@@ -1,0 +1,23 @@
+.spcae-container-inner h3 {
+    font-size: 17px;
+    font-weight: 600;
+}
+.tab-menu .nav-tabs {
+    border-bottom: none;
+}
+
+.tab-menu .ds-btn:first-child {
+    border-radius: 20px 0 0 20px;
+}
+.tab-menu .ds-btn:last-child {
+    border-radius: 0 20px 20px 0;
+}
+.tab-menu .ds-btn {
+    border-radius: 0;
+    width: 120px;
+    /* margin-left: -15px; */
+}
+/* .tab-menu .ds-btn.ds-btn--tertiary:not(:disabled):not(.disabled):active, 
+.tab-menu .ds-btn.ds-btn--tertiary:not(:disabled):not(.disabled).active {
+    background: rgb(255 255 255 / 79%);
+} */

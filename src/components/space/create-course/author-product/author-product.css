@@ -1,0 +1,98 @@
+.auth-left-panel {
+    width: 200px;
+}
+
+.auth-right-panel {
+    background-color: #fff;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding: 10px 15px 15px 15px;
+    border-radius: 10px;
+    width: calc(100% - 200px - 32px);
+    min-height: 380px;
+}
+
+.auth-right-panel h4 {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.ck-powered-by-balloon {
+    display: none !important;
+}
+
+.ck-editor__editable {
+    height: 400px;
+}
+.ck-rounded-corners .ck.ck-editor__main>.ck-editor__editable, .ck.ck-editor__main>.ck-editor__editable.ck-rounded-corners {
+    border-radius: 0 0 10px 10px;
+}
+.ck.ck-editor__editable.ck-focused:not(.ck-editor__nested-editable) {
+    border:1px solid #ededed;
+    box-shadow:none;
+}
+
+.ck.ck-editor__main>.ck-editor__editable:not(.ck-focused),
+.ck.ck-toolbar {
+    border-color: #ededed;
+}
+
+.new {
+    margin-bottom: 10px;
+}
+
+.new .ds-btn {
+    background: #fff;
+}
+
+.auth-left-panel .list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.auth-left-panel .list-item {
+    border-bottom: 1px solid #d7e2ed;
+    border-radius: 0 22px 22px 0;
+}
+
+.auth-left-panel .list-item .list-item-btn {
+    width: 100%;
+    border-radius: 0 22px 22px 0;
+    text-align: left;
+    justify-content: space-between;
+    padding: 5px 5px 5px 10px;
+    color: #384141;
+    font-weight: normal;
+    display: flex;
+}
+
+.auth-left-panel .list-item .list-item-btn:hover .ds-btn-icon,
+.auth-left-panel .list-item .list-item-btn:focus .ds-btn-icon {
+    visibility: visible;
+}
+
+.auth-left-panel .list-item .list-item-btn .ds-btn-icon {
+    width: 25px;
+    height: 25px;
+    visibility: hidden;
+}
+
+.auth-left-panel .list-item .list-item-btn .ds-btn-icon:focus {
+    visibility: visible;
+}
+
+.auth-left-panel .list-item .list-item-btn .ds-btn .ds-btn__icon {
+    font-size: 14px;
+}
+
+.auth-left-panel .list-item .list-item-btn:not(.active):hover {
+    color: #242424;
+    background-color: rgb(158 166 179 / 8%);
+}
+
+.auth-left-panel .list-item .list-item-btn.active {
+    background: transparent;
+    font-weight: bold;
+}
